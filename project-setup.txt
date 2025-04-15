@@ -1,0 +1,55 @@
+Create a full-stack eCommerce website like Amazon using the following stack and features:
+
+Tech Stack:
+- TypeScript
+- Next.js 15 (App Router)
+- Shadcn/ui for components
+- Lucide for icons
+- Zod for validation
+- Zustand for state management
+- Prisma as ORM
+- PostgreSQL as database
+- next-auth@beta for authentication
+- Recharts for admin dashboard analytics
+- Uploadthing for file/image uploads
+- Resend for transactional emails
+- PayPal integration for payments
+
+Core Features:
+1. User Features:
+   - Browse products by category
+   - Search functionality
+   - Add to cart, update cart, checkout
+   - PayPal integration for secure payment
+   - Order history
+   - Account dashboard
+
+2. Admin Dashboard:
+   - Product management (CRUD)
+   - Category and subcategory management
+   - View and manage orders
+   - View user list
+   - Sales and analytics dashboard (using Recharts)
+   - Upload product images (Uploadthing)
+   - Send order/shipping confirmation emails (Resend)
+
+3. Authentication:
+   - next-auth@beta with credentials, Google, and GitHub providers
+   - Role-based auth (admin vs. user)
+
+4. Affiliate System:
+   - Allow users to register as affiliates
+   - Generate unique affiliate links per user
+   - Track link clicks and successful purchases
+   - When someone purchases using an affiliate link, credit the affiliate with a $100 commission instantly
+   - Affiliate dashboard to view clicks, conversions, and earnings
+   - Admin dashboard to manage and view affiliate performance
+
+Other Requirements:
+- Fully responsive design (desktop, tablet, mobile)
+- Use Tailwind CSS
+- Codebase must be modular and clean
+- Use Zod for server/client validation
+- Zustand for global cart and auth state
+
+Start from scratch. Build out pages, components, database schema, API routes, and all logic step-by-step using the technologies listed.
