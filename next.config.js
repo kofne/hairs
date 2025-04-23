@@ -25,6 +25,7 @@ const nextConfig = {
     config.externals = [...config.externals, 'bcrypt']
     return config
   },
+  reactStrictMode: true,
 }
 
 module.exports = nextConfig
